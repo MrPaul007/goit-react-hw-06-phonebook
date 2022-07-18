@@ -11,7 +11,6 @@ function App() {
   const contacts = useSelector(getAllContacts);
   const visibleContacts = useSelector(getFilteredContacts);
   const dispatch = useDispatch();
-  console.log(contacts)
 
   const onAddContact = ( data ) => { 
     const { name } = data;  
