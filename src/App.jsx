@@ -5,7 +5,7 @@ import ContactList from "./components/ContactList";
 import Filter from "./components/Filter";
 
 import { add, remove, changeFilter  } from "./redux/contacts/contacts-slice";
-import { getAllContacts, getFilteredContacts, getContactsFilter } from "./redux/contacts/contacts-selectors";
+import { getAllContacts, getFilteredContacts } from "./redux/contacts/contacts-selectors";
 
 function App() {
   const contacts = useSelector(getAllContacts);
