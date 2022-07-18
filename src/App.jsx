@@ -9,7 +9,6 @@ import { getAllContacts, getFilteredContacts, getContactsFilter } from "./redux/
 
 function App() {
   const contacts = useSelector(getAllContacts);
-  const filter = useSelector(getContactsFilter);
   const visibleContacts = useSelector(getFilteredContacts);
   const dispatch = useDispatch();
   console.log(contacts)
